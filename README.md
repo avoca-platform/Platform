@@ -1,6 +1,6 @@
-# Hana App Platform for data manager in business with Software Service Model
+# Avoca Platform for data manager in business with Software Service Model
 
-![alt text](./public/img/app/screenshot.png?raw=true "Penguin Platform")
+![alt text](./public/img/app/screenshot.png?raw=true "Avoca Platform")
 
 ## Feature
 * Apply CoreUI open source template
@@ -17,8 +17,8 @@
 * meteor
 
 ### Build from source
-* git clone 
-* cd PenguinPlatform
+* git clone https://github.com/avoca-platform/Platform.git
+* cd Platform
 * meteor npm install
 * Install redux dev tool: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 * If want not to use redux dev tool:
@@ -35,5 +35,5 @@
 * Account: @username.@domain (Example: admin.up5.vn)
 
 ### Demo
-* UPPOS built on HanaPlatform: http://pos.up5.vn
+* UPPOS built on AvocaPlatform: http://pos.up5.vn
 * Account: admin.up5.vn/123
