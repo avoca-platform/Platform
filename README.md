@@ -1,7 +1,5 @@
 # Avoca Platform for data manager in business with Software Service Model
 
-![alt text](./public/img/app/screenshot.png?raw=true "Avoca Platform")
-
 ## Feature
 * Apply CoreUI open source template
 * ACL feature
