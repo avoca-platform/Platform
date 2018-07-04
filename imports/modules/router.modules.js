@@ -1,7 +1,10 @@
+import {CustomersRouters} from './Customers/config/routers';
+
 let HomeRouterModules = {};
 HomeRouterModules = Object.assign(HomeRouterModules, {});
 export {HomeRouterModules};
 
-let RouterModules = {};
-RouterModules = Object.assign(RouterModules, {});
+const RouterModules = {
+    ...CustomersRouters
+};
 export {RouterModules};
