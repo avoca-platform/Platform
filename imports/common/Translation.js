@@ -97,7 +97,7 @@ export class PT extends Component {
             settings[key] = setting;
         }
 
-        let pageTitle = settings && ((settings['Systems:title'] && settings['Systems:title'].value) || 'Hana Platform');
+        let pageTitle = settings && ((settings['Systems:title'] && settings['Systems:title'].value) || 'Avoca Platform');
 
         if (title) {
             pageTitle = title + ' | ' + pageTitle;
