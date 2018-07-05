@@ -16,6 +16,10 @@ import ListComponent from '../../../../ui/default/pages/models/components/ListCo
 class ViewCustomers extends Component {
     static viewInfo = {controller: 'Customers', action: 'List'};
 
+    constructor(props) {
+        super(props);
+    }
+
     componentWillMount() {
         this.limit = Customers.getLimit();
         this.pagination = Customers.pagination();
